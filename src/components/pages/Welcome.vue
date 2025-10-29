@@ -19,8 +19,26 @@
             </p>
             <h5><i>Push &rarr; Pull &rarr; Legs &rarr; Repeat</i></h5>
         </div>
+        <div class="card challenge">
+            <h3>🔥 Your Challenge</h3>
+            <p>Complete all the workouts and track your progress along the way!</p>
+            <p>Do you accept?</p>
+            <button>Begin &rarr;</button>
+        </div>
     </section>
 </template>
 
 <style scoped>
+    #welcome,
+    .challenge,
+    .benefits {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #welcome {
+        gap: 1.5rem;
+    }
 </style>
+
+<!-- 45:54 -->
