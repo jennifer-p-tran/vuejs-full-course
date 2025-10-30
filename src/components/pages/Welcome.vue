@@ -39,6 +39,14 @@
     #welcome {
         gap: 1.5rem;
     }
+
+    .benefits {
+        gap: 0.5rem;
+    }
+
+    .challenge {
+        gap: 0.25rem;
+    }
 </style>
 
-<!-- 45:54 -->
+<!-- 50:54 -->
