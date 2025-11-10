@@ -1,6 +1,7 @@
 <script setup>
 </script>
 
+
 <template>
     <!-- The id attribute is a unique value -->
     <section id="welcome">
@@ -28,6 +29,7 @@
     </section>
 </template>
 
+
 <style scoped>
     #welcome,
     .challenge,
@@ -47,6 +49,15 @@
     .challenge {
         gap: 0.25rem;
     }
-</style>
 
-<!-- 50:54 -->
+    @media (min-width: 640px) {
+        #welcome {
+            gap: 2rem;
+            padding: 1rem 0;
+        }
+
+        .benefits {
+            gap: 1rem;
+        }
+    }
+</style>

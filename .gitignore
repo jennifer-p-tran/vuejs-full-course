@@ -13,3 +13,5 @@ yarn-error.log*
 pnpm-debug.log*
 .vscode/
 .DS_Store
+
+.env
